@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: rgba(245, 245, 245, 0.9);
+    background-color: #ffffff;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-image: url('images/Leralla Logo.svg'); /* Ensure the file path is correct */
+    background-size: contain; /* Use contain to avoid stretching the logo */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    min-height: 26vh; /* Full viewport height */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.9); /* Fallback background for transparency */
+}
+
+#classhero {
+    padding: 2rem; /* Reduced padding to avoid excessive spacing */
+    max-width: 800px; /* Consistent with other sections */
+    margin: 0 auto;
+}
+
+#classhero h1 {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#classhero p {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.navbar {
+    background-color: #087bcd;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.tag h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.nav-links li a:hover {
+    color: rgba(59, 124, 169, 0.8);
+}
+
+.hero {
+    background-color: rgba(245, 245, 245, 0.9);
+    text-align: center;
+    padding: 11rem 2rem;
+    
+}
+
+.hero h1 {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 11rem;
+}
+#classhero h1 {
+    color: antiquewhite;
+}
+#classhero p {
+    color: antiquewhite;
+    margin-bottom: 10rem;
+
+}
+h2 {
+    color: #087bcd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p {
+    color: #087bcd;
+    max-width: 800px;
+    margin: 0.8rem auto;
+    text-align: center;
+}
+
+ol {
+    list-style-type: decimal;
+    max-width: 800px;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+ol li {
+    color: #087bcd;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+ul li {
+    color: #087bcd;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+a {
+    color: #087bcd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-link {
+    display: block;
+}
+
+section {
+    padding: 1rem 1rem;
+    text-align: center;
+}
+#sectionclass {
+    padding: 7rem 2rem
+}
+#aboutclass {
+    padding: 7rem 2rem
+}
+.about, .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: #087bcd;
+    color: white;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+
